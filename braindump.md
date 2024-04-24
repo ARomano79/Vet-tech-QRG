@@ -31,4 +31,11 @@ Scanning documents (reception)
             In PetDesk
              - Update status and not texted, etc in Compliance tab 
 
-    
+
+
+    Deposits (Sx, new patient, etc)
+     On main record, R click on NEW
+     type deposit into desc. and select correct option.  & done.
+     Post Acct 
+         On pink post screen, R click & select NEW -> Cardworks -> change apply to balance amount (change back amount should be 0!)
+             
