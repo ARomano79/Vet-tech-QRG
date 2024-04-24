@@ -1,4 +1,9 @@
+Brain dump (Quick notes to add/edit later).
+
+
 Scanning documents (reception)
+
+
     Click scan on printer
         Choose network folder
             - Server folder
