@@ -14,4 +14,21 @@ Scanning documents (reception)
         - confirm scan before shredding!!!!  
 
 
-        
+        PetDesk Compliance
+            Pick topic (ex. Rabies)
+                - go thru each date and select pt.
+                - go to Avimark and check record to make sure not already scheduled, inactive, etc.  
+
+                - on PetDesk choose from preset menu options   
+                    - overdue prev services & exam/Rabies option
+                    - add Pet name to personalize and click send
+
+            In Avimark
+             - R click NEW 
+                - type Overdue 
+                - note saying texted & then post
+
+            In PetDesk
+             - Update status and not texted, etc in Compliance tab 
+
+    
