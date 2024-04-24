@@ -43,4 +43,9 @@ Scanning documents (reception)
      type deposit into desc. and select correct option.  & done.
      Post Acct 
          On pink post screen, R click & select NEW -> Cardworks -> change apply to balance amount (change back amount should be 0!)
-             
+
+
+    Turn Phones On/Off 
+        500# 
+        1 - open mode
+        2 - closed mode
