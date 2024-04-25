@@ -49,3 +49,18 @@ Scanning documents (reception)
         500# 
         1 - open mode
         2 - closed mode
+
+    Reports (end of day)
+        Avimark - go to work w/
+            - reports
+            - 3 items should be presaved in left column... print/done.
+        CardWorks
+        go to transaction reports on side menu
+         - start date (current day)
+         - submit 
+         - R click to print
+         - go back to transaction reports, click 100 (per Page ooption) & print.
+        Care Credit 
+            go to reports
+            recent transactions
+            print page (don't print if no Care Credit trans. for the day)
