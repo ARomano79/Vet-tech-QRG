@@ -110,6 +110,7 @@
 
   @media only screen and (min-width: 400px) {
     .dropbtn {
+      font-size: 2rem;
       padding: 0.4rem 0.6rem;
     }
   }
@@ -136,7 +137,7 @@
     background-color: transparent;
     min-width: 18rem;
     z-index: 1;
-    margin: 0.16rem -15.5rem;
+    margin: 0.16rem -15rem;
   }
   
   /* Links inside the dropdown */
