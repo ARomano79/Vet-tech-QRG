@@ -54,7 +54,7 @@
       }
 
       section {
-        border: 2px solid lime;
+        border: 0.1rem solid var(--KAH-dark-blue);
       }
 
       nav {
