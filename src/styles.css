@@ -97,7 +97,7 @@
 .dropbtn {
     background-color: var(--KAH-med-blue);
     color: var(--KAH-white);
-    padding: 0.2rem 0.4rem;
+    padding: 0.2rem 0.4rem 0.2rem 0.4rem;
     font-size: 2rem;
     font-weight: 900;
     text-align: center;
