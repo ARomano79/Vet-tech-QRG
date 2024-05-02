@@ -90,15 +90,15 @@
       padding: 0.2rem;
       position: fixed;
       top: 0;
-      height: 3.4rem;
+      height: 4rem;
     }
 
      /* Dropdown Button */
 .dropbtn {
     background-color: var(--KAH-med-blue);
     color: var(--KAH-white);
-    padding: 0;
-    font-size: 1.6rem;
+    padding: 0.2rem 0.4rem;
+    font-size: 1.8rem;
     border: 0.01rem solid var(--KAH-black);
     border-radius: 0.4rem; 
     box-shadow: 0.1rem 0.1rem 0.05rem var(--box-shadow);
