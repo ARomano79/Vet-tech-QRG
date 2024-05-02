@@ -97,7 +97,7 @@
 .dropbtn {
     background-color: var(--KAH-med-blue);
     color: var(--KAH-white);
-    padding: 0.2rem 0.6rem 0.6rem 0.6rem;
+    padding: 0rem 0.6rem 0.6rem 0.6rem;
     font-size: 2.4rem;
     font-weight: 900;
     text-align: center;
@@ -107,6 +107,13 @@
     box-shadow: 0.1rem 0.1rem 0.05rem var(--box-shadow);
     cursor: pointer;
   }
+
+  @media only screen and (min-width: 400px) {
+    .dropbtn {
+      padding: 0.2rem 0.4rem;
+    }
+  }
+
   
   /* Dropdown button on hover & focus */
   .dropbtn:hover, .dropbtn:focus {
