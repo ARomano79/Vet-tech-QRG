@@ -194,22 +194,68 @@
 
   /* LIST STYLES (outlines w/in document) */
 
-  .list-wrapper, .sub-list-wrapper-1 {
-    /* border: 2px solid orangered; */
+  .list-wrapper, .sub-list-wrapper-1, .sub-list-wrapper-2, .sub-list-wrapper-3, .sub-list-wrapper-4 {
     list-style-position: inside;
     margin: 0 auto;
     padding: 0.2rem;
   }
 
-  .list-main-items {
-      border: 2px solid mediumaquamarine;
-      text-align: left;
-      margin: 0 auto;
-      padding: 0.2rem;
-      list-style-type: none;
-      font-weight: 600;
+  .list-wrapper {
+    /* border: 2px solid fuchsia; */
+  }
+  
+    .sub-list-wrapper-1 {
+      /* border: 2px solid orangered; */
+    }
+  
+    .sub-list-wrapper-2 {
+      /* border: 2px solid aqua; */
+    }
+
+    .sub-list-wrapper-3 {
+      /* border: 2px solid darkgreen; */
+    }
+
+    .sub-list-wrapper-4 {
+      /* border: 2px solid blue; */
+    }
+
+  .list-main-items, .sub-list-l, .sub-list-2, .sub-list-3, .sub-list-4, .list-reminder {
+    margin: 0 auto;
+    padding: 0.2rem 0.4rem;
+    text-align: left;
+    font-weight: 400;
   }
 
-  .sub-list-wrapper-1 {
-    border: 2px solid orangered;
+  .list-main-items {
+    /* border: 2px solid mediumaquamarine; */
+    list-style-type: none;
+    font-weight: 600;
+}
+
+  .sub-list-l {
+    /* border: 2px solid purple; */
+    list-style-type: disc;
+  }
+
+  .sub-list-2 {
+    /* border: 2px solid greenyellow; */
+    list-style-type: circle;
+  }
+
+  .sub-list-3 {
+    /* border: 2px solid red; */
+    list-style-type: disc;
+  }
+
+  .sub-list-4 {
+    /* border: 2px solid cyan; */
+    list-style-type: circle;
+  }
+
+  .list-reminder {
+    /* border: 2px solid fuchsia; */
+    padding: 0.2rem 0.8rem;
+    list-style-type: none;
+    font-style: italic;
   }
