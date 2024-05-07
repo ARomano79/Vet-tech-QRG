@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>QRG for work stuff - Newsletters/meeting agenda notes/etc
+    </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="QRG for work related stuff for Vet Techs">
+    <link rel="stylesheet" href="../src/styles.css">
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <!-- NAV BAR -->
+      <nav id="main-nav"><a id="page-top"></a>
+        <div id="home">
+          <a href ="../index.html" style="float: left; color: white; margin: auto 2rem; padding: 0 0.4rem;">Home</a>
+        </div>
+        <div class="dropdown">
+          <button onclick="myFunction()" class="dropbtn">&#9776</button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="../src/newsletters-main.html">News & latest updates</a>
+            <a href="#section-card-2">Section 2 - Charts & Cheatsheets</a>
+            <a href="#section-card-3">Technician Reminders</a>
+            <a href="#section-card-4">Section 4 - CSR</a>
+            <a href="#section-card-5">Section 5 - Kennel</a>
+            <a href="#section-card-6">Section 6 - SOPs, MSDS, misc. info</a>
+          </div>
+        </div> 
+      </nav>
+
+      <!-- HERO -->
+      <section id="hero">
+        <h1>QRG for work stuff</h1>
+        <h3>Newsletters/meeting agenda notes/etc</h3>
+      </section>
+    </header>
+    <main>
+      <section id="intro/about">
+        <h2>What is the point of this page?</h2>
+        <p>newsletters / meeting notes, etc... </p>
+      </section>
+
+      <!-- Specific topics/sections here -->
+
+
+      <section class="section-card">
+        <a id="section-card-3"><h3>Section 3 - Technician</h3></a>
+
+        <p>
+          <a href="../src/tech-main.html">Technician Reminders</a>
+          </p>
+          <a id="tp-reminders"><h6>Treatment Plan Reminders</h6></a>
+          <p><a href="#general">General</a></p>
+          <p><a href="#dental-sx">Dentals/sx</a></p>
+          
+          
+          <h4>Treatment Plan Reminders</h4>
+          <p>(also known as the "what am I forgetting and don't want to ask Christine 100 times" section 🤪)</p>
+          <a id="general"><h5>General</h5></a>
+        <ul class="list-wrapper">
+          <li class="list-main-items">
+            Don't forget deposits!!! (see <a href="#section-card-4">CSR</a> section for steps) 
+            <ul class="sub-list-wrapper-1">
+              <li class="sub-list-l">sx ($100)</li>
+              <li class="sub-list-l">new client ($50)</li>
+            </ul>  
+          </li>
+          <!-- BLANK LIST ENTRY -->
+          <!--
+          <li class="list-main-items">
+            <ul class="sub-list-wrapper-1">
+              <li class="sub-list-l"></li>
+              <li class="sub-list-l"></li>
+            </ul>
+          </li>
+        </ul>
+        -->
+
+        <a id="dental-sx"><h5>Dentals/Sx</h5></a>
+        <ul class="list-wrapper">
+          <li class="list-main-items">
+            PAPs (dental/m/r) tx plan 
+            <ul class="sub-list-wrapper-1">
+              <li class="sub-list-l">
+                Exam: prev 
+              </li>
+              <li class="sub-list-l">Bloodwork: 
+                <ul class="sub-list-wrapper-2">
+                  <li class="sub-list-2">dogs: total health + </li>
+                  <li class="sub-list-2">cats: healthChek + </li>
+                  <li class="list-reminder">(Note: Jr/Sr from annual wellness ok if sx sched within ~30 days)</li>
+                </ul>
+              </li>
+              <li class="sub-list-l">sx deposit ($100)</li>
+            </ul>
+          </li>
+          <li class="list-main-items">
+            PAPs (spay/neuter) tx plan 
+            <ul class="sub-list-wrapper-1">
+              <li class="sub-list-l">Exam: prev</li>
+              <li class="sub-list-l">Bloodwork:
+                <ul class="sub-list-wrapper-2">
+                  <li class="sub-list-2">chem 6 (PAP panel)</li>
+                  <li class="list-reminder">(or Jr/Sr from annual wellness if within time limits)</li> 
+                </ul>
+              </li>
+              <li class="sub-list-l">sx deposit ($100)</li>
+              <!-- reminder class in the future -->
+              <li class="sub-list-l, list-reminder">(don't forget mature spay fee for over 1 yr old!)</li>
+            </ul>
+          </li>
+        </ul>
+
+        <a href="#page-top">return to top</a>
+      </section>
+
+            
+      <!-- extra blank section -->
+      <!--
+      <section class="section-card"><a id="section-card-7"></a>
+        <h3>Section 7</h3>
+
+        <a href="#page-top">return to top</a>
+      </section> 
+      -->
+    </main>
+    <footer>
+      <p>
+        &#169; <span id="#current-year"></span> QRG for work related stuff... site created by Amie Romano, LVT.
+    </p>
+    </footer>
+    <script src="../src/nav.js"></script>
+    <script src="../src/main.js"></script>
+  </body>
+</html>
