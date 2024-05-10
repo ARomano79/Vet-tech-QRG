@@ -160,15 +160,6 @@
     margin: 0.16rem -14rem;
   }
 
-  /*
-  @media only screen and (min-width: 400px) {
-    .dropdown-content {
-      margin: 0.16rem -15.6rem;
-    }
-  }
-  */
-
-
   
   /* Links inside the dropdown */
   .dropdown-content a {
