@@ -93,7 +93,7 @@
     line-height: 2rem;
     border: 0.01rem solid var(--KAH-light-blue);
     border-radius: 0.4rem; 
-    box-shadow: 0.04rem 0.04rem 0.06rem var(--light-shadow);
+    box-shadow: 0.04rem 0.04rem 0.06rem var(--dark-shadow);
     cursor: pointer;
   }
 
@@ -177,19 +177,31 @@
   /* OTHER HEADER STYLES */
 
 
+  /* main header for main sections (charts-main, csr-main, etc), not index */
   h2 {
     font-size: 1.6rem;
-    margin: 0 auto;
-    padding: 0.2rem 0.6rem;
+    margin: 1rem auto;
+    padding: 0.4rem 0.6rem;
   }
 
+
+  /* Primary header for page sections */
   h3 {
     font-size: 1.8rem;
     margin: 0 auto;
     padding: 0.2rem;
   }
 
+  .h3-tagline {
+    margin: 0 auto;
+    padding: 0.2rem;
+    font-style: italic;
+  }
+
+
   h4 {
+    margin: 0.6rem auto 0;
+    padding: 0.2rem;
     font-size: 1.4rem;
   }
 
@@ -207,21 +219,15 @@
     margin: 1rem auto;
     padding: 0.2rem;
     width: 90%;
-    background-color: var(--KAH-med-blue);
+    background-color: var(--KAH-white);
     border: 0.1rem solid var(--KAH-light-blue);
     border-radius: 0.4rem; 
-    box-shadow: 0.1rem 0.1rem 0.05rem rgba(0,0,0,0.2);
-    color: var(--KAH-white);
+    box-shadow: 0.1rem 0.1rem 0.05rem var(--dark-shadow);
   }
 
-  .section-card:hover {
-    cursor: pointer;
-    background-color: var(--KAH-lighter-blue);
-    color: var(--KAH-med-blue);
-  }
 
   .index-main-sections {
-    margin: 1rem auto;
+    margin: 1rem auto 1.1rem;
     padding: 0.2rem;
     width: 90%;
     background-color: var(--KAH-med-blue);
@@ -233,15 +239,25 @@
   .index-main-sections:hover {
     cursor: pointer;
     background-color: var(--KAH-dark-blue);
-
   }
 
   .index-main-sections a {
     text-decoration: none;
     color: var(--KAH-white);
+    padding: 0.4rem;
+    font-size: 1.2rem;
+  }
 
-    
 
+.main-text {
+  margin: 0.2rem auto;
+  padding: 0.4rem;
+
+}
+
+  /* temporary for editing */
+  section p {
+    font-weight: 300;
   }
 
   /* LIST STYLES (outlines w/in document) */
