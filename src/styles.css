@@ -28,6 +28,8 @@
     }
 
       html {
+        color: var(--KAH-black);
+        background-color: var(--KAH-white);
         /* border: 2px solid var(--KAH-black); */
         /* background-color: var(--KAH-black); */
         }
