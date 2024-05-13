@@ -10,5 +10,6 @@
        - start: 7:30pm, end: 8:15pm (.75)
 5/10/24 - start: 8:15am, end: 1:58pm (5.75)
 5/11/24 - start: 5:38pm, end: 7:57pm (2.1)-
+5/13/24 - start: 4:35pm, end: ()
 Total Hours: ~25.85
 [EOF]

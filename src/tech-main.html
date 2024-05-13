@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="QRG for work related stuff for Vet Techs">
-    <link rel="stylesheet" href="../src/styles.css">
+    <link rel="stylesheet" href="styles.css">
 
     <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,17 +19,17 @@
       <nav id="main-nav"><a id="page-top"></a>
         <div id="home">
            <!-- replace with home icon later -->
-          <a href ="../index.html" id="home">Home</a>
+          <a href ="index.html" id="home">Home</a>
         </div>
         <div class="dropdown">
           <button onclick="myFunction()" class="dropbtn">&#9776</button>
           <div id="myDropdown" class="dropdown-content">
-            <a href="../src/newsletters-main.html">News & latest updates</a>
-            <a href="../src/charts-main.html">Charts & Cheatsheets</a>
-            <a href="../src/tech-main.html">Technician</a>
-            <a href="../src/csr-main.html">CSR</a>
-            <a href="../src/kennel-main.html">Kennel</a>
-            <a href="../src/docs-main.html">SOPs/MSDSs/misc.</a>
+            <a href="newsletters-main.html">News & latest updates</a>
+            <a href="charts-main.html">Charts & Cheatsheets</a>
+            <a href="tech-main.html">Technician</a>
+            <a href="csr-main.html">CSR</a>
+            <a href="kennel-main.html">Kennel</a>
+            <a href="docs-main.html">SOPs/MSDSs/misc.</a>
           </div>
         </div> 
       </nav>
@@ -46,67 +46,28 @@
     <main>
      
       <!-- Specific topics/sections here -->
-
-      <section class="section-card">
-       <h4>Treatment Plan Reminders</h4>
-          <p class="main-text">
-            <a href="#general">General</a> | 
-            <a href="#dental-sx">Dentals/Sx</a>
-          </p>
-            <div class="spacer"><a id="general"></a></div>
-            <div>
-              <h5>General</h5>
-            <h6>Don't forget deposits!!!</h6>
-              <p class="">(see <a href="csr-main.html">CSR</a> section for steps)</p>
-              <ul>
-              <li class="">sx ($100)</li>
-              <li class="">new client ($50)</li>
-            </ul>
-            </div>
-            <div class="spacer"><a id="dental-sx"></a></div>
-            <div>
-              <h5>Dentals/Sx</h5>
-              <h6>
-                PAPs (dental/m/r) tx plan 
-              </h6>
-              <ul>
-                <li>Exam: prev </li>
-                <li class="">Bloodwork: 
-                  <ul>
-                  <li class="">dogs: total health + </li>
-                  <li class="">cats: healthChek + </li>
-                  <li class="list-reminder">(Note: Jr/Sr from annual wellness ok if sx sched within ~30-45 days)</li>
-                  </ul>
-                </li>
-                <li class="">sx deposit ($100)</li>
-              </ul>
-
-              <h6>PAPs (spay/neuter) tx plan </h6>
-              <ul>
-                <li>Exam: prev</li>
-                <li>Bloodwork:
-                  <ul>
-                    <li class="">chem 6 (PAP panel)</li>
-                    <li class="list-reminder">(or Jr/Sr from annual wellness if within 30-45 days)</li> 
-                  </ul>
-                </li> 
-                <li class="">sx deposit ($100)</li>
-                <li class="list-reminder">(don't forget * mature spay fee * for 1+ yr old females!)</li>
-              </ul>
-            </div>
-
-
-        <p class="main-text">Looking for specific info?  Check out <a href="other-news.html">Newsletters</a> (for all staff) and
-        <a href="dvm-tech-news.html">DVM/TECH</a> meeting agendas.   
+      <section class="index-main-sections">
+        <a href="tx-plan-reminders.html">
+        Treatment Plan Reminders
+        </a>
       </section>
-
+      <section class="index-main-sections">
+        <a href="dvm-tech-news.html">
+          DVM/TECH meeting agendas
+        </a>
+      </section>
+      <section class="index-main-sections">
+        <a href="other-news.html">
+          Newsletters (for all staff)
+        </a>
+      </section>
+      
     </main>
     <footer>
       <p>
         &#169; <span id="#current-year"></span> (Unofficial 😶) KAH QRG |  site created by Amie Romano, LVT.
     </p>
     </footer>
-    <script src="../src/nav.js"></script>
-    <script src="../src/main.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>
