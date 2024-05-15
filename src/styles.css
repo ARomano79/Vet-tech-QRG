@@ -242,6 +242,13 @@
     margin: 0 2rem; 
   }
 
+  .h5-tagline {
+    font-size: 0.9rem;
+    text-align: left;
+    margin: 0.1rem 2rem; 
+    font-style: italic;
+  }
+
   h6 {
     font-size: 1rem;
     text-align: left;
@@ -308,7 +315,7 @@
 
 .spacer {
   margin: 0 auto;
-  padding: 1rem
+  padding: 1.6rem
 }
 
 .spacer-sm {
@@ -327,47 +334,6 @@
   }
 
   /* LIST STYLES (outlines w/in document) */
-
-  .list-wrapper, .sub-list-wrapper-1, .sub-list-wrapper-2, .sub-list-wrapper-3, .sub-list-wrapper-4 {
-    list-style-position: inside;
-    margin: 0 auto;
-    padding: 0.2rem;
-  }
-
-  
-
-  .list-main-items, .sub-list-l, .sub-list-2, .sub-list-3, .sub-list-4, .list-reminder {
-    margin: 0 auto;
-    padding: 0.2rem 0.4rem;
-    text-align: left;
-    font-weight: 400;
-  }
-
-  .list-main-items {
-    /* border: 2px solid mediumaquamarine; */
-    list-style-type: none;
-    font-weight: 600;
-}
-
-  .sub-list-l {
-    /* border: 2px solid purple; */
-    list-style-type: disc;
-  }
-
-  .sub-list-2 {
-    /* border: 2px solid greenyellow; */
-    list-style-type: circle;
-  }
-
-  .sub-list-3 {
-    /* border: 2px solid red; */
-    list-style-type: disc;
-  }
-
-  .sub-list-4 {
-    /* border: 2px solid cyan; */
-    list-style-type: circle;
-  }
 
   .list-reminder {
     /* border: 2px solid fuchsia; */
