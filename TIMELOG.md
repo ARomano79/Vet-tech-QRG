@@ -12,7 +12,8 @@
 5/11/24 - start: 5:38pm, end: 7:57pm (2.1)
 5/13/24 - start: 4:35pm, end: 7:05pm (2.5)
         - start: 8:03pm, end: 8:32pm (.5)
-5/14/24 - start: 6:58am, end: 7:22am (.45)-
-5/15/24 - start: 7:10am, end: ()
-Total Hours: ~29.3
+5/14/24 - start: 6:58am, end: 7:22am (.45)
+5/15/24 - start: 7:10am, end: 11:09am (2)-
+5//17/24 - start: 9:25am, end: ()
+Total Hours: ~31.3
 [EOF]
