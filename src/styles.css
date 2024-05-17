@@ -73,14 +73,19 @@
     }
 
     /* ID for Home "button", replace w/ icon later */
-   #home {
+   .home-button {
     float: left; 
-    color: var(--KAH-lighter-blue); 
-    margin: 0.3rem auto; 
-    padding: 0 0.6rem; 
-    font-size: 1.4rem; 
-    text-decoration: none;
+    color: var(--KAH-lighter-med-blue); 
+    background-color: transparent;
+    margin: 0.2rem auto; 
+    padding: 0 0.4rem; 
+    height: 3rem;
+    filter: invert(100%);
+    opacity: 40%;
    }
+
+  
+
 
      /* Dropdown Button */
 .dropbtn {
@@ -90,7 +95,7 @@
     font-size: 2.4rem;
     font-weight: 900;
     text-align: center;
-    line-height: 2rem;
+    line-height: 1.8rem;
     border: 0.01rem solid var(--KAH-light-blue);
     border-radius: 0.4rem; 
     box-shadow: 0.04rem 0.04rem 0.06rem var(--dark-shadow);
